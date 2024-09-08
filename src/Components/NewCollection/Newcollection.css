@@ -1,0 +1,60 @@
+
+ 
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height:60vh;
+
+}
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 250px;
+}
+
+.popular-item img {
+    width: 100px;
+    margin-inline: auto;
+}
+
+.popular-item p {
+    text-align: center;
+}
+
+/* .popular-item title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.popular-item h2 {
+    font-size: 1rem;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.popular-items {
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+    width: 75rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
